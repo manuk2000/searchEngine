@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Task List 2021</title>
+	<link rel="stylesheet" href="main.css" />
+</head>
+<body>
+<header>
+	<h1>Good search engine</h1>
+	<form id="search">
+		<input
+				type="text"
+				name="target-input"
+				id="new-target-input"
+				placeholder="What do you want to search?"
+		onchange=""/>
+		<input
+				type="submit"
+				id="look-for-submit"
+				value="Search" />
+	</form>
+	<form id="setPercentageForm">
+		<input
+				type="number"
+				name="percentage-input"
+				id="percentageInput"
+				placeholder="Enter accordance (0-200)" />
+		<input
+				type="submit"
+				value="Set Percentage" />
+	</form>
+</header>
+<main>
+	<section class="found-list">
+		<h2>Founds</h2>
+		<div id="founds"></div>
+	</section>
+</main>
+<script src="main.js"></script>
+</body>
+</html>
